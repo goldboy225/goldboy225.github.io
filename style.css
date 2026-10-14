@@ -3,3 +3,5 @@
 .student-publications{border-top:1px solid var(--rule);padding:24px 0}.student-teams{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:18px}.student-team{padding:18px;background:#edf3f5;border-top:3px solid #8c304d}.student-team h3{font-size:16px;line-height:1.4}.empty-publications{font-size:14px;color:#555;margin:12px 0 0}@media(max-width:750px){.student-teams{grid-template-columns:1fr}}
 
 .student-teams{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.research-club{grid-column:1 / -1}.student-paper{margin-bottom:20px}.student-paper strong{font-size:15px}.student-paper p{font-size:13px;margin:6px 0}.paper-links{font-size:14px}.club-topics{columns:3;column-gap:30px}.club-topics li{break-inside:avoid;font-size:14px;margin-bottom:8px}@media(max-width:750px){.student-teams{grid-template-columns:1fr}.club-topics{columns:2}}@media(max-width:420px){.club-topics{columns:1}}
+
+.teaching{border-top:1px solid var(--rule);padding:24px 0}.teaching li{margin-bottom:10px}.teaching strong{display:inline-block;min-width:76px}
