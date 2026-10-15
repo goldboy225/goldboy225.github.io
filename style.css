@@ -7,3 +7,5 @@
 .teaching{border-top:1px solid var(--rule);padding:24px 0}.teaching li{margin-bottom:10px}.teaching strong{display:inline-block;min-width:76px}
 
 .team-photo{margin:16px 0 22px}.photo-placeholder{min-height:180px;aspect-ratio:4 / 3;border:1px dashed #a4b9c1;background:#f8fafb;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#56666c;gap:5px}.photo-symbol{font-size:32px;color:#8c304d}.photo-placeholder small{font-size:12px}.team-photo img{display:block;width:100%;height:auto;max-height:360px;object-fit:contain;background:#f8fafb}.team-photo figcaption{font-size:12px;color:#555;text-align:center;margin-top:7px}.research-club .team-photo{max-width:420px}
+
+.academic-profile img{height:auto;object-fit:contain}
