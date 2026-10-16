@@ -11,3 +11,5 @@
 .academic-profile img{height:auto;object-fit:contain}
 
 .related-reading{margin-top:14px}.related-reading summary{font-weight:bold}.reading-list{padding-left:22px;margin-top:15px}.reading-list li{margin-bottom:18px}.reading-list a{font-size:14px}.reading-list p{font-size:12px;margin:4px 0;color:#444;overflow-wrap:anywhere}.reading-list .reading-meta{color:#666}.background-reading{padding:18px 0;border-top:1px solid #ddd}
+
+.research-links ul{list-style:none;padding:0;margin:12px 0}.research-links li{margin:0 0 12px}.research-links li a{display:flex;align-items:center;gap:16px;min-height:74px}.research-links li img{width:72px;height:72px;flex:0 0 72px}.research-links li span{line-height:1.4}.research-links li a:hover img{transform:translateY(-2px)}@media(prefers-reduced-motion:reduce){.research-links li a:hover img{transform:none}}
