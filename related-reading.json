@@ -1,0 +1,785 @@
+[
+  {
+    "id": 0,
+    "title": "Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions",
+    "authors": [
+      "Suyoung Lee",
+      "Seongho Keum",
+      "Changoo Lee",
+      "Dongwon Shin",
+      "Sanghyun Hong",
+      "Byoungyoung Lee",
+      "Sooel Son"
+    ],
+    "year": 2026,
+    "venue": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/SP63933.2026.00241",
+    "linkLabel": "DOI",
+    "group": 3,
+    "note": ""
+  },
+  {
+    "id": 1,
+    "title": "ACE: A Security Architecture for LLM-Integrated App Systems",
+    "authors": [
+      "Evan Li",
+      "Tushin Mallick",
+      "Evan Rose",
+      "William Robertson",
+      "Alina Oprea",
+      "Cristina Nita-Rotaru"
+    ],
+    "year": 2026,
+    "venue": "Proceedings 2026 Network and Distributed System Security Symposium",
+    "url": "https://doi.org/10.14722/ndss.2026.230352",
+    "linkLabel": "DOI",
+    "group": 3,
+    "note": ""
+  },
+  {
+    "id": 2,
+    "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+    "authors": [
+      "Georgios Syros",
+      "Anshuman Suri",
+      "Jacob Ginesin",
+      "Cristina Nita-Rotaru",
+      "Alina Oprea"
+    ],
+    "year": 2025,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=SAGA%3A%20A%20Security%20Architecture%20for%20Governing%20AI%20Agentic%20Systems",
+    "linkLabel": "Scholar",
+    "group": 3,
+    "note": ""
+  },
+  {
+    "id": 3,
+    "title": "Beyond Predictable Paths: Redefining AI Security Incident Reporting for Agents",
+    "authors": [
+      "Anastasia Pustozerova",
+      "Eugene Bagdasarian",
+      "Luca Beurer-Kellner",
+      "Battista Biggio",
+      "Nico Ebert",
+      "David Filip",
+      "Marc Fischer",
+      "Heather Frase",
+      "David Hofer",
+      "Juliane Hoffmann",
+      "Daphne Ippolito",
+      "Somesh Jha",
+      "Sean McGregor",
+      "Esfandiar Mohammadi",
+      "Luca Nannini",
+      "Cristina Nita-Rotaru",
+      "Alina Oprea",
+      "Kevin Paeth",
+      "Andrew Paverd",
+      "Jonathan Petit",
+      "Andreas Rauber",
+      "Christian Riess",
+      "John Sotiropoulos",
+      "Andreas Wespi",
+      "Kathrin Grosse"
+    ],
+    "year": 2026,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Beyond%20Predictable%20Paths%3A%20Redefining%20AI%20Security%20Incident%20Reporting%20for%20Agents",
+    "linkLabel": "Scholar",
+    "group": 3,
+    "note": ""
+  },
+  {
+    "id": 4,
+    "title": "NetAgent: Multi-Task Agentic Network Traffic Analysis Made Practical",
+    "authors": [
+      "Hao Fu",
+      "Dawn Song",
+      "Peng Gao"
+    ],
+    "year": 2026,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=NetAgent%3A%20Multi-Task%20Agentic%20Network%20Traffic%20Analysis%20Made%20Practical",
+    "linkLabel": "Scholar",
+    "group": 4,
+    "note": ""
+  },
+  {
+    "id": 5,
+    "title": "Evaluating an LLM-based Judge for Network Intrusion Detection Alert Explanation",
+    "authors": [
+      "Jawad Kadri",
+      "Ashraf Matrawy"
+    ],
+    "year": 2026,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Evaluating%20an%20LLM-based%20Judge%20for%20Network%20Intrusion%20Detection%20Alert%20Explanation",
+    "linkLabel": "Scholar",
+    "group": 4,
+    "note": "Author draft (October 2026)"
+  },
+  {
+    "id": 6,
+    "title": "On Designing Machine Learning Models for Malicious Network Traffic Classification",
+    "authors": [
+      "Talha Ongun",
+      "Timothy Sakharaov",
+      "Simona Boboila",
+      "Alina Oprea",
+      "Tina Eliassi-Rad"
+    ],
+    "year": 2019,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=On%20Designing%20Machine%20Learning%20Models%20for%20Malicious%20Network%20Traffic%20Classification",
+    "linkLabel": "Scholar",
+    "group": 1,
+    "note": ""
+  },
+  {
+    "id": 7,
+    "title": "On the (In)Security of Loading Machine Learning Models",
+    "authors": [
+      "Gabriele Digregorio",
+      "Marco Di Gennaro",
+      "Stefano Zanero",
+      "Stefano Longari",
+      "Michele Carminati"
+    ],
+    "year": 2025,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=On%20the%20%28In%29Security%20of%20Loading%20Machine%20Learning%20Models",
+    "linkLabel": "Scholar",
+    "group": 2,
+    "note": ""
+  },
+  {
+    "id": 8,
+    "title": "SoK: Critical Evaluation of Quantum Machine Learning for Adversarial Robustness",
+    "authors": [
+      "Saeefa Rubaiyet Nowmi",
+      "Jesus Lopez",
+      "Md Mahmudul Alam Imon",
+      "Shahrooz Pouryousef",
+      "Mohammad Saidur Rahman"
+    ],
+    "year": 2025,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=SoK%3A%20Critical%20Evaluation%20of%20Quantum%20Machine%20Learning%20for%20Adversarial%20Robustness",
+    "linkLabel": "Scholar",
+    "group": 2,
+    "note": ""
+  },
+  {
+    "id": 9,
+    "title": "SecJev: Bringing Security Expertise to System One Decision Models",
+    "authors": [
+      "Zheng Chen",
+      "Fei Yu",
+      "Haohao Huang",
+      "Yang Li",
+      "Anlong Chen",
+      "Lei Chen"
+    ],
+    "year": 2026,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=SecJev%3A%20Bringing%20Security%20Expertise%20to%20System%20One%20Decision%20Models",
+    "linkLabel": "Scholar",
+    "group": 4,
+    "note": ""
+  },
+  {
+    "id": 10,
+    "title": "Cybersecurity attacks and defense strategies for in-vehicle networks of autonomous vehicles: A systematic literature review, current trends and future directions",
+    "authors": [
+      "J. Vanajakshi",
+      "A. Renuka",
+      "Kamath Vidya",
+      "N.D. Adesh"
+    ],
+    "year": null,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Cybersecurity%20attacks%20and%20defense%20strategies%20for%20in-vehicle%20networks%20of%20autonomous%20vehicles%3A%20A%20systematic%20literature%20review%2C%20current%20trends%20and%20future%20directions",
+    "linkLabel": "Scholar",
+    "group": 5,
+    "note": ""
+  },
+  {
+    "id": 11,
+    "title": "Incalmo: an Autonomous Llm-Assisted System for Red Teaming Multi-Host Networks",
+    "authors": [
+      "Brian Singer",
+      "Keane Lucas",
+      "Lakshmi Adiga",
+      "Meghna Jain",
+      "Lujo Bauer",
+      "Vyas Sekar"
+    ],
+    "year": 2026,
+    "venue": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/SP63933.2026.00132",
+    "linkLabel": "DOI",
+    "group": 4,
+    "note": ""
+  },
+  {
+    "id": 12,
+    "title": "Beyond Nodes vs. Edges: A Multi-View Fusion Framework for Provenance-Based Intrusion Detection",
+    "authors": [
+      "Fan Yang",
+      "Binyan Xu",
+      "Di Tang",
+      "Kehuan Zhang"
+    ],
+    "year": 2026,
+    "venue": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/SP63933.2026.00242",
+    "linkLabel": "DOI",
+    "group": 1,
+    "note": ""
+  },
+  {
+    "id": 13,
+    "title": "FlowSentry: Accelerating NetFlow-based DDoS Detection",
+    "authors": [
+      "Xiaoyu He",
+      "Xiaohui Xie",
+      "Xin Wang",
+      "Lei Zhang",
+      "Kun Xie",
+      "Lin Chen",
+      "Yong Cui"
+    ],
+    "year": 2025,
+    "venue": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "url": "https://doi.org/10.1145/3719027.3744800",
+    "linkLabel": "DOI",
+    "group": 1,
+    "note": ""
+  },
+  {
+    "id": 14,
+    "title": "Training with Only 1.0 ‰ Samples: Malicious Traffic Detection via Cross-Modality Feature Fusion",
+    "authors": [
+      "Chuanpu Fu",
+      "Qi Li",
+      "Elisa Bertino",
+      "Ke Xu"
+    ],
+    "year": 2025,
+    "venue": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "url": "https://doi.org/10.1145/3719027.3765143",
+    "linkLabel": "DOI",
+    "group": 1,
+    "note": ""
+  },
+  {
+    "id": 15,
+    "title": "Human-Centered Threat Modeling in Practice: Lessons, Challenges, and Paths Forward",
+    "authors": [
+      "Warda Usman",
+      "Yixin Zou",
+      "Daniel Zappala"
+    ],
+    "year": 2025,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Human-Centered%20Threat%20Modeling%20in%20Practice%3A%20Lessons%2C%20Challenges%2C%20and%20Paths%20Forward",
+    "linkLabel": "Scholar",
+    "group": 4,
+    "note": ""
+  },
+  {
+    "id": 16,
+    "title": "KAN-LSTM: Benchmarking Kolmogorov-Arnold Networks for cyber security threat detection in IoT networks",
+    "authors": [
+      "Mohammed Alotaibi",
+      "Mohammed Hassanin",
+      "Nour Moustafa",
+      "Ibrahim Radwan"
+    ],
+    "year": 2026,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=KAN-LSTM%3A%20Benchmarking%20Kolmogorov-Arnold%20Networks%20for%20cyber%20security%20threat%20detection%20in%20IoT%20networks",
+    "linkLabel": "Scholar",
+    "group": 5,
+    "note": ""
+  },
+  {
+    "id": 17,
+    "title": "Fast time series anomaly detection using an efficient periodicity-aware neural network",
+    "authors": [
+      "Pengfei Li",
+      "Yinghao Ruan",
+      "Peishun Liu",
+      "Junyu Dong",
+      "Xinghui Dong"
+    ],
+    "year": 2027,
+    "venue": "Neurocomputing",
+    "url": "https://doi.org/10.1016/j.neucom.2026.135312",
+    "linkLabel": "DOI",
+    "group": 1,
+    "note": ""
+  },
+  {
+    "id": 18,
+    "title": "Passive Hybrid Network-Based Intrusion Detection System (Hybrid-NIDS) Combining Suricata and Random Forest",
+    "authors": [
+      "Quoc-Cuong Tang",
+      "Hoang-Lam Huynh",
+      "Van-Tri Phan",
+      "Khuong Nguyen-An"
+    ],
+    "year": 2026,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Passive%20Hybrid%20Network-Based%20Intrusion%20Detection%20System%20%28Hybrid-NIDS%29%20Combining%20Suricata%20and%20Random%20Forest",
+    "linkLabel": "Scholar",
+    "group": 1,
+    "note": ""
+  },
+  {
+    "id": 19,
+    "title": "Out of Sync, Out of Sight: Phantom State Attacks against IIoT Intrusion Detection",
+    "authors": [
+      "Sabrine Ennaji",
+      "Elhadj Benkhelifa",
+      "Nadia Kabachi"
+    ],
+    "year": 2026,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Out%20of%20Sync%2C%20Out%20of%20Sight%3A%20Phantom%20State%20Attacks%20against%20IIoT%20Intrusion%20Detection",
+    "linkLabel": "Scholar",
+    "group": 5,
+    "note": ""
+  },
+  {
+    "id": 20,
+    "title": "2FiA: Towards WiFi Sensing-Based Authentication with Unique Biometrics",
+    "authors": [
+      "Li Bofan",
+      "Ye Zhankai",
+      "Yu Weikuan",
+      "Tang Yongning",
+      "Liu Xiu"
+    ],
+    "year": 2026,
+    "venue": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/SP63933.2026.00087",
+    "linkLabel": "DOI",
+    "group": 5,
+    "note": ""
+  },
+  {
+    "id": 21,
+    "title": "AI Wrote My Paper and All I Got was This False Negative:* Measuring the Efficacy of Commercial AI Text Detectors",
+    "authors": [
+      "Seth Layton",
+      "Bernardo B. P. Medeiros",
+      "Kevin Butler",
+      "Patrick Traynor"
+    ],
+    "year": 2026,
+    "venue": "2026 IEEE Symposium on Security and Privacy (SP)",
+    "url": "https://doi.org/10.1109/SP63933.2026.00088",
+    "linkLabel": "DOI",
+    "group": 0,
+    "note": ""
+  },
+  {
+    "id": 22,
+    "title": "Privacy Perspectives and Practices of Chinese Smart Home Product Teams",
+    "authors": [
+      "Shijing He",
+      "Yaxiong Lei",
+      "Xiao Zhan",
+      "Chi Zhang",
+      "Juan Ye",
+      "Ruba Abu-Salma",
+      "Jose Such"
+    ],
+    "year": 2025,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Privacy%20Perspectives%20and%20Practices%20of%20Chinese%20Smart%20Home%20Product%20Teams",
+    "linkLabel": "Scholar",
+    "group": 5,
+    "note": ""
+  },
+  {
+    "id": 23,
+    "title": "International Students and Scams: At Risk Abroad",
+    "authors": [
+      "Katherine Zhang",
+      "Arjun Arunasalam",
+      "Pubali Datta",
+      "Z. Berkay Celik"
+    ],
+    "year": 2025,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=International%20Students%20and%20Scams%3A%20At%20Risk%20Abroad",
+    "linkLabel": "Scholar",
+    "group": 0,
+    "note": ""
+  },
+  {
+    "id": 24,
+    "title": "Learning Robust Personalized Prompts for LLM-Driven Sequential Recommendation",
+    "authors": [
+      "Xiaolin Zheng",
+      "Qiyong Zhong",
+      "Jiajie Su",
+      "Xiang Chen"
+    ],
+    "year": 2026,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Learning%20Robust%20Personalized%20Prompts%20for%20LLM-Driven%20Sequential%20Recommendation",
+    "linkLabel": "Scholar",
+    "group": 0,
+    "note": ""
+  },
+  {
+    "id": 25,
+    "title": "SoK: Evaluating Jailbreak Guardrails for Large Language Models",
+    "authors": [
+      "Xunguang Wang",
+      "Zhenlan Ji",
+      "Wenxuan Wang",
+      "Zongjie Li",
+      "Daoyuan Wu",
+      "Shuai Wang"
+    ],
+    "year": 2025,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=SoK%3A%20Evaluating%20Jailbreak%20Guardrails%20for%20Large%20Language%20Models",
+    "linkLabel": "Scholar",
+    "group": 2,
+    "note": ""
+  },
+  {
+    "id": 26,
+    "title": "LLMs in the SOC: An Empirical Study of Human-AI Collaboration in Security Operations Centres",
+    "authors": [
+      "Ronal Singh",
+      "Shahroz Tariq",
+      "Fatemeh Jalalvand",
+      "Mohan Baruwal Chhetri",
+      "Surya Nepal",
+      "Cecile Paris",
+      "Martin Lochner"
+    ],
+    "year": 2025,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=LLMs%20in%20the%20SOC%3A%20An%20Empirical%20Study%20of%20Human-AI%20Collaboration%20in%20Security%20Operations%20Centres",
+    "linkLabel": "Scholar",
+    "group": 4,
+    "note": ""
+  },
+  {
+    "id": 27,
+    "title": "PILOT: Command-line Interface Fuzzing via Path-Guided, Iterative Large Language Model Prompting",
+    "authors": [
+      "Momoko Shiraishi",
+      "Yinzhi Cao",
+      "Takahiro Shinagawa"
+    ],
+    "year": 2025,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=PILOT%3A%20Command-line%20Interface%20Fuzzing%20via%20Path-Guided%2C%20Iterative%20Large%20Language%20Model%20Prompting",
+    "linkLabel": "Scholar",
+    "group": 4,
+    "note": ""
+  },
+  {
+    "id": 28,
+    "title": "Are LLM-Enhanced Graph Neural Networks Robust against Poisoning Attacks?",
+    "authors": [
+      "Yuhang Ma",
+      "Jie Wang",
+      "Zheng Yan"
+    ],
+    "year": 2026,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Are%20LLM-Enhanced%20Graph%20Neural%20Networks%20Robust%20against%20Poisoning%20Attacks%3F",
+    "linkLabel": "Scholar",
+    "group": 2,
+    "note": ""
+  },
+  {
+    "id": 29,
+    "title": "SoK: Robustness in Large Language Models against Jailbreak Attacks",
+    "authors": [
+      "Feiyue Xu",
+      "Hongsheng Hu",
+      "Chaoxiang He",
+      "Sheng Hang",
+      "Hanqing Hu",
+      "Xiuming Liu",
+      "Yubo Zhao",
+      "Zhengyan Zhou",
+      "Bin Benjamin Zhu",
+      "Shi-Feng Sun",
+      "Dawu Gu",
+      "Shuo Wang"
+    ],
+    "year": 2026,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=SoK%3A%20Robustness%20in%20Large%20Language%20Models%20against%20Jailbreak%20Attacks",
+    "linkLabel": "Scholar",
+    "group": 2,
+    "note": ""
+  },
+  {
+    "id": 30,
+    "title": "A Survey on Reinforcement Learning Methods for Seamless Connectivity in 6G Non-Terrestrial Networks: Algorithms and Key Findings",
+    "authors": [
+      "Soyi Jung",
+      "Huiyeon Jang",
+      "Seoyeong Park",
+      "Junyoung Kim",
+      "Jiseok Jang",
+      "In-Sop Cho",
+      "Minsu Shin",
+      "Tony Q. S. Quek",
+      "Zhu Han",
+      "Joongheon Kim"
+    ],
+    "year": 2026,
+    "venue": "IEEE Communications Surveys & Tutorials",
+    "url": "https://doi.org/10.1109/COMST.2026.3740875",
+    "linkLabel": "DOI",
+    "group": 0,
+    "note": ""
+  },
+  {
+    "id": 31,
+    "title": "PhishLang: A Real-Time, Fully Client-Side Phishing Detection Framework Using MobileBERT",
+    "authors": [
+      "Sayak Saha Roy",
+      "Shirin Nilizadeh"
+    ],
+    "year": 2026,
+    "venue": "Proceedings 2026 Network and Distributed System Security Symposium",
+    "url": "https://doi.org/10.14722/ndss.2026.231037",
+    "linkLabel": "DOI",
+    "group": 1,
+    "note": ""
+  },
+  {
+    "id": 32,
+    "title": "Paladin: Defending LLM-enabled Phishing Emails with a New Trigger-Tag Paradigm",
+    "authors": [
+      "Yan Pang",
+      "Wenlong Meng",
+      "Xiaojing Liao",
+      "Tianhao Wang"
+    ],
+    "year": 2026,
+    "venue": "Proceedings 2026 Network and Distributed System Security Symposium",
+    "url": "https://doi.org/10.14722/ndss.2026.232522",
+    "linkLabel": "DOI",
+    "group": 4,
+    "note": ""
+  },
+  {
+    "id": 33,
+    "title": "Phishing in Wonderland: Evaluating Learning-Based Ethereum Phishing Transaction Detection and Pitfalls",
+    "authors": [
+      "Ahod Alghuried",
+      "David Mohaisen"
+    ],
+    "year": 2026,
+    "venue": "Proceedings 2026 Network and Distributed System Security Symposium",
+    "url": "https://doi.org/10.14722/ndss.2026.240694",
+    "linkLabel": "DOI",
+    "group": 1,
+    "note": ""
+  },
+  {
+    "id": 34,
+    "title": "CtPhishCapture: Uncovering Credential-Theft-Based Phishing Scams Targeting Cryptocurrency Wallets",
+    "authors": [
+      "Hui Jiang",
+      "Zhenrui Zhang",
+      "Xiang Li",
+      "Yan Li",
+      "Anpeng Zhou",
+      "Chenghui Wu",
+      "Man Hou",
+      "Jia Zhang",
+      "Zongpeng Li"
+    ],
+    "year": 2026,
+    "venue": "Proceedings 2026 Network and Distributed System Security Symposium",
+    "url": "https://doi.org/10.14722/ndss.2026.242854",
+    "linkLabel": "DOI",
+    "group": 1,
+    "note": ""
+  },
+  {
+    "id": 37,
+    "title": "I can't recognize (yet): Delayed Rendering to Defeat Visual Phishing Detectors",
+    "authors": [
+      "Ying Yuan",
+      "Cristiano Alex Rado",
+      "Giovanni Apruzzese",
+      "Mauro Conti",
+      "Luigi Vincenzo Mancini"
+    ],
+    "year": 2026,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=I%20can%27t%20recognize%20%28yet%29%3A%20Delayed%20Rendering%20to%20Defeat%20Visual%20Phishing%20Detectors",
+    "linkLabel": "Scholar",
+    "group": 1,
+    "note": ""
+  },
+  {
+    "id": 38,
+    "title": "Poster: LLMalware : An LLM-Powered Robust and Efficient Android Malware Detection Framework",
+    "authors": [
+      "Zijing Ma",
+      "Leming Shen",
+      "Xinyu Huang",
+      "Yuanqing Zheng"
+    ],
+    "year": 2025,
+    "venue": "Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security",
+    "url": "https://doi.org/10.1145/3719027.3760709",
+    "linkLabel": "DOI",
+    "group": 4,
+    "note": ""
+  },
+  {
+    "id": 39,
+    "title": "Poster: Defeating Network Dynamics: DRL-Based Automated Attack Path Discovery in IIoT",
+    "authors": [
+      "Yifan Liu",
+      "Shancang Li",
+      "Xueyi Wang"
+    ],
+    "year": null,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Poster%3A%20Defeating%20Network%20Dynamics%3A%20DRL-Based%20Automated%20Attack%20Path%20Discovery%20in%20IIoT",
+    "linkLabel": "Scholar",
+    "group": 5,
+    "note": ""
+  },
+  {
+    "id": 40,
+    "title": "Poster: An Analysis of Matter IoT Security Against International Standards and Regulatory Framework",
+    "authors": [
+      "Andrew Losty",
+      "Anna Maria Mandalari"
+    ],
+    "year": null,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Poster%3A%20An%20Analysis%20of%20Matter%20IoT%20Security%20Against%20International%20Standards%20and%20Regulatory%20Framework",
+    "linkLabel": "Scholar",
+    "group": 5,
+    "note": ""
+  },
+  {
+    "id": 41,
+    "title": "Poster: Your Key is Mine: LLM API Key Leakage in iOS Apps",
+    "authors": [
+      "Pinran Gao",
+      "Wang Lingxiang",
+      "Ying Zhang"
+    ],
+    "year": null,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Poster%3A%20Your%20Key%20is%20Mine%3A%20LLM%20API%20Key%20Leakage%20in%20iOS%20Apps",
+    "linkLabel": "Scholar",
+    "group": 2,
+    "note": ""
+  },
+  {
+    "id": 42,
+    "title": "Poster: Towards Model Drift Resistant Website Fingerprinting with Time-Series LLMs",
+    "authors": [
+      "Yuwen Cui",
+      "Kai Wei",
+      "Kehan Shen",
+      "Guangjing Wang"
+    ],
+    "year": null,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Poster%3A%20Towards%20Model%20Drift%20Resistant%20Website%20Fingerprinting%20with%20Time-Series%20LLMs",
+    "linkLabel": "Scholar",
+    "group": 1,
+    "note": ""
+  },
+  {
+    "id": 43,
+    "title": "A Maliciously-Secure Post-Quantum OPRF from Crypto Dark Matter",
+    "authors": [
+      "Diego F. Aranha",
+      "Aron van Baarsen",
+      "Adam Blatchley Hansen",
+      "Kent Nielsen",
+      "Peter Scholl"
+    ],
+    "year": null,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=A%20Maliciously-Secure%20Post-Quantum%20OPRF%20from%20Crypto%20Dark%20Matter",
+    "linkLabel": "Scholar",
+    "group": 0,
+    "note": ""
+  },
+  {
+    "id": 44,
+    "title": "Blinding Post-Quantum Hash-and-Sign Signatures",
+    "authors": [
+      "Charles Bouillaguet",
+      "Thibauld Feneuil",
+      "Jules Maire",
+      "Matthieu Rivain",
+      "Julia Sauvage",
+      "Damien Vergnaud"
+    ],
+    "year": null,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=Blinding%20Post-Quantum%20Hash-and-Sign%20Signatures",
+    "linkLabel": "Scholar",
+    "group": 0,
+    "note": ""
+  },
+  {
+    "id": 45,
+    "title": "DREAM: Scalable Red Teaming for Text-to-Image Generative Systems via Distribution Modeling",
+    "authors": [
+      "Boheng Li",
+      "Junjie Wang",
+      "Yiming Li",
+      "Zhiyang Hu",
+      "Leyi Qi",
+      "Jianshuo Dong",
+      "Run Wang",
+      "Han Qiu",
+      "Zhan Qin",
+      "Tianwei Zhang"
+    ],
+    "year": 2025,
+    "venue": "",
+    "url": "https://scholar.google.com/scholar?q=DREAM%3A%20Scalable%20Red%20Teaming%20for%20Text-to-Image%20Generative%20Systems%20via%20Distribution%20Modeling",
+    "linkLabel": "Scholar",
+    "group": 2,
+    "note": ""
+  },
+  {
+    "id": 46,
+    "title": "Explainable intrusion detection for the internet of things: a systematic literature review",
+    "authors": [
+      "Alexsandra Macedo Souto",
+      "Alvaro Sobrinho",
+      "Lenardo Chaves E Silva",
+      "Leandro Dias Da Silva",
+      "Andrea Ceccarelli",
+      "Angelo Perkusich"
+    ],
+    "year": 2026,
+    "venue": "Internet of Things",
+    "url": "https://doi.org/10.1016/j.iot.2026.102107",
+    "linkLabel": "DOI",
+    "group": 5,
+    "note": ""
+  }
+]

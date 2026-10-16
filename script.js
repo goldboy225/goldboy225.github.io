@@ -14,3 +14,26 @@ document.querySelectorAll('.team-photo[data-photo]').forEach(figure => {
   photo.onload = () => figure.querySelector('.photo-placeholder').replaceWith(photo);
   photo.src = figure.dataset.photo;
 });
+
+// Curated bibliography: public metadata only; no notes or local attachment paths.
+async function loadRelatedReading() {
+  const response = await fetch('related-reading.json');
+  if (!response.ok) return;
+  const papers = await response.json();
+  const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  function list(items) {
+    return '<ul class="reading-list">' + items.map(p => '<li><a href="' + escape(p.url) + '" target="_blank" rel="noopener">' + escape(p.title) + '</a> [' + escape(p.linkLabel) + ']<p>' + escape(p.authors.join(', ')) + '</p><p class="reading-meta">' + escape([p.venue, p.year, p.note].filter(Boolean).join(' · ')) + '</p></li>').join('') + '</ul>';
+  }
+  for (let group = 1; group <= 5; group++) {
+    const items = papers.filter(p => p.group === group).sort((a,b) => (b.year || 0) - (a.year || 0));
+    const details = document.createElement('details');
+    details.className = 'related-reading';
+    details.innerHTML = '<summary>Related reading (' + items.length + ' papers)</summary>' + list(items);
+    document.querySelector('#rd' + group + ' .direction-body').append(details);
+  }
+  const background = document.createElement('details');
+  background.className = 'related-reading background-reading';
+  background.innerHTML = '<summary>Background & adjacent topics (' + papers.filter(p => p.group === 0).length + ' papers)</summary><p>Complementary reading on post-quantum cryptography, networking, recommendation, AI text detection and online scams.</p>' + list(papers.filter(p => p.group === 0));
+  document.querySelector('#directions').after(background);
+}
+loadRelatedReading().catch(() => {});

@@ -9,3 +9,5 @@
 .team-photo{margin:16px 0 22px}.photo-placeholder{min-height:180px;aspect-ratio:4 / 3;border:1px dashed #a4b9c1;background:#f8fafb;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#56666c;gap:5px}.photo-symbol{font-size:32px;color:#8c304d}.photo-placeholder small{font-size:12px}.team-photo img{display:block;width:100%;height:auto;max-height:360px;object-fit:contain;background:#f8fafb}.team-photo figcaption{font-size:12px;color:#555;text-align:center;margin-top:7px}.research-club .team-photo{max-width:420px}
 
 .academic-profile img{height:auto;object-fit:contain}
+
+.related-reading{margin-top:14px}.related-reading summary{font-weight:bold}.reading-list{padding-left:22px;margin-top:15px}.reading-list li{margin-bottom:18px}.reading-list a{font-size:14px}.reading-list p{font-size:12px;margin:4px 0;color:#444;overflow-wrap:anywhere}.reading-list .reading-meta{color:#666}.background-reading{padding:18px 0;border-top:1px solid #ddd}
