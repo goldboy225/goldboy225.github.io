@@ -28,12 +28,12 @@ async function loadRelatedReading() {
     const items = papers.filter(p => p.group === group).sort((a,b) => (b.year || 0) - (a.year || 0));
     const details = document.createElement('details');
     details.className = 'related-reading';
-    details.innerHTML = '<summary>Related reading (' + items.length + ' papers)</summary>' + list(items);
+    details.innerHTML = '<summary>Recent papers</summary>' + list(items);
     document.querySelector('#rd' + group + ' .direction-body').append(details);
   }
   const background = document.createElement('details');
   background.className = 'related-reading background-reading';
-  background.innerHTML = '<summary>Background & adjacent topics (' + papers.filter(p => p.group === 0).length + ' papers)</summary><p>Complementary reading on post-quantum cryptography, networking, recommendation, AI text detection and online scams.</p>' + list(papers.filter(p => p.group === 0));
+  background.innerHTML = '<summary>Recent papers</summary><p>Complementary reading on post-quantum cryptography, networking, recommendation, AI text detection and online scams.</p>' + list(papers.filter(p => p.group === 0));
   document.querySelector('#directions').after(background);
 }
 loadRelatedReading().catch(() => {});
