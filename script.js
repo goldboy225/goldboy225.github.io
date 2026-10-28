@@ -5,7 +5,7 @@ const directions = [
 ['Agentic AI for cybersecurity operations','Helping defenders reason from evidence and act with oversight.','Evidence-grounded retrieval, alert triage, threat investigation and auditable reporting with analysts retaining decision authority.',['Security knowledge & RAG','Agentic SOC & threat hunting','Human–agent collaboration'],'SOC copilots; self-learning investigation memory; human-supervised autonomous defense.'],
 ['Intelligent IoT, edge & CPS security','Bringing robust security intelligence to constrained environments.','Lightweight detection, corrupted telemetry, privacy-preserving collaboration and cyber-physical attack detection.',['Resource-aware edge models','Federated & distributed security','Cyber-physical resilience'],'Collaborative edge intelligence; agentic IoT security; autonomous CPS defense.']
 ];
-document.querySelector('#directions').innerHTML=directions.map((d,i)=>`<article class="direction" id="rd${i+1}"><span class="number">0${i+1}</span><div class="direction-body"><h3>${d[0]}</h3><p class="subhead">${d[1]}</p><p>${d[2]}</p><div class="tags">${d[3].map(t=>`<span>${t}</span>`).join('')}</div></div></article>`).join('');
+if (document.querySelector('#directions')) document.querySelector('#directions').innerHTML=directions.map((d,i)=>`<article class="direction" id="rd${i+1}"><span class="number">0${i+1}</span><div class="direction-body"><h3>${d[0]}</h3><p class="subhead">${d[1]}</p><p>${d[2]}</p><div class="tags">${d[3].map(t=>`<span>${t}</span>`).join('')}</div></div></article>`).join('');
 
 // Team portraits uploaded alongside the website source appear automatically.
 document.querySelectorAll('.team-photo[data-photo]').forEach(figure => {
@@ -17,6 +17,7 @@ document.querySelectorAll('.team-photo[data-photo]').forEach(figure => {
 
 // Curated bibliography: public metadata only; no notes or local attachment paths.
 async function loadRelatedReading() {
+  if (!document.querySelector('#directions')) return;
   const response = await fetch('related-reading.json');
   if (!response.ok) return;
   const papers = await response.json();
@@ -41,7 +42,7 @@ loadRelatedReading().catch(() => {});
 // Live DOI metadata checks; publication dates, not page edits, trigger badges.
 async function loadConferenceUpdates() {
   const root = document.querySelector('#paper-resources .resource-columns');
-  if (!root) return;
+  if (!root || !root.querySelector('li strong')) return;
   const venues = [
     ['IEEE S&P', 'IEEE Symposium on Security and Privacy', /^(?:\d{4} )?(?:IEEE )?Symposium on Security and Privacy(?: \(SP\))?$/i],
     ['USENIX Security', 'USENIX Security Symposium', /^(?:Proceedings of the )?(?:\d+(?:st|nd|rd|th) )?USENIX Security Symposium(?: \d{4})?$/i],
