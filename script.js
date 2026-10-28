@@ -5,7 +5,7 @@ const directions = [
 ['Agentic AI for cybersecurity operations','Helping defenders reason from evidence and act with oversight.','Evidence-grounded retrieval, alert triage, threat investigation and auditable reporting with analysts retaining decision authority.',['Security knowledge & RAG','Agentic SOC & threat hunting','Human–agent collaboration'],'SOC copilots; self-learning investigation memory; human-supervised autonomous defense.'],
 ['Intelligent IoT, edge & CPS security','Bringing robust security intelligence to constrained environments.','Lightweight detection, corrupted telemetry, privacy-preserving collaboration and cyber-physical attack detection.',['Resource-aware edge models','Federated & distributed security','Cyber-physical resilience'],'Collaborative edge intelligence; agentic IoT security; autonomous CPS defense.']
 ];
-if (document.querySelector('#directions')) document.querySelector('#directions').innerHTML=directions.map((d,i)=>`<article class="direction" id="rd${i+1}"><span class="number">0${i+1}</span><div class="direction-body"><h3>${d[0]}</h3><p class="subhead">${d[1]}</p><p>${d[2]}</p><div class="tags">${d[3].map(t=>`<span>${t}</span>`).join('')}</div></div></article>`).join('');
+if (document.querySelector('#directions')) document.querySelector('#directions').innerHTML=directions.map((d,i)=>`<article class="direction" id="rd${i+1}"><span class="number">0${i+1}</span><details class="direction-body"><summary><h3>${d[0]}</h3></summary><p class="subhead">${d[1]}</p><p>${d[2]}</p><div class="tags">${d[3].map(t=>`<span>${t}</span>`).join('')}</div></details></article>`).join('');
 
 // Team portraits uploaded alongside the website source appear automatically.
 document.querySelectorAll('.team-photo[data-photo]').forEach(figure => {
@@ -101,3 +101,12 @@ async function loadConferenceUpdates() {
     : 'Recent-paper checks are temporarily unavailable. Please use the official proceedings links.';
 }
 loadConferenceUpdates().catch(() => {});
+
+// Direction links reveal the selected research summary automatically.
+function revealResearchDirection() {
+  if (!/^#rd[1-5]$/.test(location.hash)) return;
+  const details = document.querySelector(location.hash + ' details');
+  if (details) details.open = true;
+}
+window.addEventListener('hashchange', revealResearchDirection);
+revealResearchDirection();
