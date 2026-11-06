@@ -1,5 +1,39 @@
 [
   {
+    "id": 47,
+    "title": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat",
+    "authors": [
+      "Bangya Liu",
+      "Jianhong Tu",
+      "Yueyang Pan",
+      "Hanhong Zhao",
+      "Zhe Ye",
+      "Hongwei Li",
+      "Saastha Vasan",
+      "Katherine Lambert",
+      "Junmin Zhu",
+      "Hao Wang",
+      "Jienan Chen",
+      "Yunze Xiao",
+      "Minglai Yang",
+      "Zihan Wang",
+      "Hairong Yin",
+      "Hao Wang",
+      "Zhiwen Fan",
+      "Tianneng Shi",
+      "Zhun Wang",
+      "Wenbo Guo",
+      "Chenguang Wang",
+      "Dawn Song"
+    ],
+    "year": 2026,
+    "venue": "arXiv preprint · arXiv:2610.19005",
+    "url": "https://doi.org/10.48550/arXiv.2610.19005",
+    "linkLabel": "DOI",
+    "group": 1,
+    "note": "Benchmarks AI agents in live attack-and-defense tasks; also relevant to agentic cybersecurity operations (Research 04)."
+  },
+  {
     "id": 0,
     "title": "Site Isolation is Dead: How Site Isolation is Broken in Agentic Browsers and Extensions",
     "authors": [
